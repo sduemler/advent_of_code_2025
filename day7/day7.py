@@ -9,7 +9,7 @@ for line in lines:
     mani.append(man)
 
 for x in range(len(mani)):
-    #print(mani[x])
+    print(mani[x])
     for y in range(len(mani[x])):
         if mani[x][y] == 'S' or mani[x][y] == '|':
             if x < len(mani) - 1:
